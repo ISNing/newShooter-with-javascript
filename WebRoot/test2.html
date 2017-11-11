@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>童程童美调查问卷</title>
+	</head>
+
+	<body>
+	<center>
+	<h1>童程童美调查问卷</h1>
+	<hr />
+	<form action="#">
+	    <fieldset >
+	    <legend>基本信息</legend>
+	        请输入您的姓名：<input type="text" /><br /> 
+	        请输入您的年龄：<input type="text" /><br />
+	        请输入您的学校：<input type="text" placeholder="现读" /> 
+	    </fieldset>
+	    
+	    <fieldset>
+	    <legend>个人特长</legend>
+	    <input type="checkbox" />玩游戏
+	    <input type="checkbox" />看书
+	    <input type="checkbox" />弹琴
+	    <input type="checkbox" />学英语
+	    <input type="checkbox" />编程
+	    <input type="checkbox" /><input type="text"  placeholder="其他"/>    
+	    </fieldset>
+	    
+	    
+	    <fieldset>
+	    <legend>家庭住址</legend>
+	    <input type="radio" name="q"/>东城
+	    <input type="radio" name="q"/>西城
+	    <input type="radio" name="q"/>海淀
+	    <input type="radio" name="q"/>通州
+	    <input type="radio" name="q"/>昌平
+	    <input type="radio" name="q"/>丰台
+	    <input type="radio" name="q"/>房山
+	    <input type="radio" name="q"/>朝阳
+	    </fieldset>
+	    
+	    <fieldset>
+	     <legend>您感兴趣的编程课程</legend>
+	     <input type="checkbox" />java
+	     <input type="checkbox" />c
+	     <input type="checkbox" />c++
+	     <input type="checkbox" />javascript
+	     <input type="checkbox" />.net
+	     <input type="checkbox" />c#
+	     <input type="checkbox" />ios
+	     <input type="checkbox" />android
+	    </fieldset>
+	    
+	    
+	    <fieldset>
+	    <legend>您的联系方式</legend>
+	      <input type="tel" />手机<br />
+	      <input type="email" />邮箱<br />
+	      <input type="text" />QQ<br />
+	      <input type="text" />微信<br />
+	    </fieldset>
+	    <input type="date" />
+	    <input type="reset" />
+	    <input type="button"  value="提交" id="btn" />
+	    
+	</form>
+	</center>
+	
+	   <script>
+	         var btn=document.getElementById("btn");
+	         btn.onclick=function(){
+	              btn.value="提交成功";
+	         }
+	   </script>
+	</body>
+</html>
+
+
+
+
